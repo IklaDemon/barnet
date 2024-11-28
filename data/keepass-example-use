@@ -1,0 +1,57 @@
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:UserName -ref-Title:"server"
+ale
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:UserName -ref-Title:"server"
+ale
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:UserName -ref-Title:"server"
+ale
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:username -ref-Title:"server"
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -ref-Title:"server"
+ale
+test
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -ref-Title:"wifi"
+03Lantech2024!
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -ref-Title:"server"
+ale
+test
+OK: Operation completed successfully.
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -ref-Title:"wifi"
+03Lantech2024!
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -ref-UserName:"ujpc"
+03Lantech2024!
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -ref-UserName:"ale"
+ale
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -ref-Title:"server"
+ale
+test
+OK: Operation completed successfully.
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -ref-Title:"server"
+ale
+OK: Operation completed successfully.
+
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -Field:UserName -ref-Title:"server"
+ale
+OK: Operation completed successfully.
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -Field:UserName -ref-Title:"wifi"
+ujpc
+OK: Operation completed successfully.
+.\KPScript.exe -c:GetEntryString ".\password\p.kdbx" -pw:test -Field:Password -ref-Title:"wifi"
+03Lantech2024!
+OK: Operation completed successfully.
